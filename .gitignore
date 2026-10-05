@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+api/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated data, reports, and models
+data/feedback*.sqlite3*
+data/raw/
+data/processed/
+artifacts/
+reports/generated/
+model/releases/
+*.keras
+*.onnx
+*.npy
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Environment and editors
+.env
+!.env.example
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.egg-info/
